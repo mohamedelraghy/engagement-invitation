@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Confetti from "react-confetti";
 import "./WelcomeAnimation.css";
+import RingIcon from "../assets/ring.png";
 
 const WelcomeAnimation = () => {
   const [windowSize, setWindowSize] = useState({
@@ -40,7 +41,7 @@ const WelcomeAnimation = () => {
           We're Engaged!
         </motion.h1>
         <motion.img
-          src="/ring-icon.png" // Replace with your engagement ring icon
+          src={RingIcon} // Replace with your engagement ring icon
           alt="Engagement Ring"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -54,12 +55,21 @@ const WelcomeAnimation = () => {
         >
           Mohamed & Esraa
         </motion.p>
+        {/* Add the Date */}
+        <motion.p
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 2, duration: 1 }}
+          className="date"
+        >
+          20 / 9 / 2024
+        </motion.p>
       </motion.div>
       <motion.div
         className="confetti"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 2, duration: 1 }}
+        transition={{ delay: 2.5, duration: 1 }}
       >
         🎉 🎊 🎉 🎊
       </motion.div>
