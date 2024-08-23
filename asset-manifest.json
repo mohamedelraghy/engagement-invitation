@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/engagement-invitation/static/css/main.e2b2fbe2.css",
-    "main.js": "/engagement-invitation/static/js/main.8b7fc7b6.js",
+    "main.js": "/engagement-invitation/static/js/main.544877ed.js",
     "static/js/453.dc24be5e.chunk.js": "/engagement-invitation/static/js/453.dc24be5e.chunk.js",
     "static/media/ring.png": "/engagement-invitation/static/media/ring.568508cf099433daf3d7.png",
     "index.html": "/engagement-invitation/index.html",
     "main.e2b2fbe2.css.map": "/engagement-invitation/static/css/main.e2b2fbe2.css.map",
-    "main.8b7fc7b6.js.map": "/engagement-invitation/static/js/main.8b7fc7b6.js.map",
+    "main.544877ed.js.map": "/engagement-invitation/static/js/main.544877ed.js.map",
     "453.dc24be5e.chunk.js.map": "/engagement-invitation/static/js/453.dc24be5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2b2fbe2.css",
-    "static/js/main.8b7fc7b6.js"
+    "static/js/main.544877ed.js"
   ]
 }
