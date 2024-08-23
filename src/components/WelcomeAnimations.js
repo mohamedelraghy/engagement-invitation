@@ -38,7 +38,7 @@ const WelcomeAnimation = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          We're Engaged!
+          We're Engaged 🧡
         </motion.h1>
         <motion.img
           src={RingIcon} // Replace with your engagement ring icon
