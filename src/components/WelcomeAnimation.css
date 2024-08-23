@@ -1,0 +1,48 @@
+/* WelcomeAnimation.css */
+
+.welcome-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+.welcome-message {
+  text-align: center;
+}
+
+.welcome-message h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #e07a5f;
+}
+
+.welcome-message p {
+  font-size: 1.5rem;
+  color: #3d405b;
+}
+
+.ring-icon {
+  width: 100px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.confetti {
+  font-size: 2rem;
+  margin-top: 30px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
